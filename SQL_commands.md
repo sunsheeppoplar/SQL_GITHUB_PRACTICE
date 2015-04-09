@@ -1,28 +1,28 @@
-CREATE TABLE receipts (id INTEGER PRIMARY KEY, store TEXT, item TEXT, number_of_items INTEGER, price INTEGER, buy_date TEXT);
+1. CREATE TABLE receipts (id INTEGER PRIMARY KEY, store TEXT, item TEXT, number_of_items INTEGER, price INTEGER, buy_date TEXT);
 
-All the attributes from all the receipts
+2. All the attributes from all the receipts
 SELECT * FROM receipts;
 
-The store and item names from all the receipts
+3. The store and item names from all the receipts
 SELECT store, item FROM receipts;
 
-All the attributes from all purchases made at Toys R Us
+4. All the attributes from all purchases made at Toys R Us
 SELECT * WHERE store = "Toys R Us";
 
-The item name of each purchase made at Strand.
+5. The item name of each purchase made at Strand.
 **answer**
 
-The total number of items Peter purchased
+6. The total number of items Peter purchased
 **answer**
 
-The total number of items purchased at Sears
+7. The total number of items purchased at Sears
 **answer**
 
-All the attributes of receipts where Peter bought multiple items.
+8. All the attributes of receipts where Peter bought multiple items.
 **answer**
 
-The average number of items purchased on a trip to JC Penny
+9. The average number of items purchased on a trip to JC Penny
 **answer**
 
-Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
+10. Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
 **answer**
