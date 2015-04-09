@@ -13,7 +13,7 @@ SELECT * WHERE store = "Toys R Us";
 SELECT item FROM receipts WHERE store = "Strand";
 
 6. The total number of items Peter purchased
-**answer**
+SELECT SUM(number_of_items) FROM receipts;
 
 7. The total number of items purchased at Sears
 **answer**
