@@ -10,7 +10,7 @@ SELECT store, item FROM receipts;
 SELECT * WHERE store = "Toys R Us";
 
 5. The item name of each purchase made at Strand.
-**answer**
+SELECT item FROM receipts WHERE store = "Strand";
 
 6. The total number of items Peter purchased
 **answer**
