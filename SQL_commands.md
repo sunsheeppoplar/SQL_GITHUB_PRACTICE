@@ -16,7 +16,7 @@ SELECT item FROM receipts WHERE store = "Strand";
 SELECT SUM(number_of_items) FROM receipts;
 
 7. The total number of items purchased at Sears
-**answer**
+SELECT SUM(number_of_items) FROM receipts WHERE store = "Sears";
 
 8. All the attributes of receipts where Peter bought multiple items.
 **answer**
