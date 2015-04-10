@@ -22,7 +22,7 @@ SELECT SUM(number_of_items) FROM receipts WHERE store = "Sears";
 SELECT * FROM receipts WHERE number_of_items > 1;
 
 9. The average number of items purchased on a trip to JC Penny
-**answer**
+SELECT AVG(number_of_items) FROM receipts WHERE store = "JC Penny";
 
 10. Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
 **answer**
