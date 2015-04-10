@@ -19,7 +19,7 @@ SELECT SUM(number_of_items) FROM receipts;
 SELECT SUM(number_of_items) FROM receipts WHERE store = "Sears";
 
 8. All the attributes of receipts where Peter bought multiple items.
-**answer**
+SELECT * FROM receipts WHERE number_of_items > 1;
 
 9. The average number of items purchased on a trip to JC Penny
 **answer**
