@@ -25,4 +25,4 @@ SELECT * FROM receipts WHERE number_of_items > 1;
 SELECT AVG(number_of_items) FROM receipts WHERE store = "JC Penny";
 
 10. Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
-**answer**
+INSERT INTO receipts (store, item, number_of_items, price, buy_date) VALUES("Schnapps Haus", "Heatstreet Maple Bourbon", 1, 40.99, "July 4 2014");
